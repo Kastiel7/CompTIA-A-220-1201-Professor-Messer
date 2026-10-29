@@ -5,7 +5,7 @@ Introduction to IP
 - data that are carried is called packets
 - the truck is the Internet Protocol or IP
 - the boxes that the truck carries hold your data and the boxes can be categorized as TCP and UDP types
-- inside of these boxes are application information
+- inside of these boxes are application information and each box has a room name. Port number is written on the outside of the box so it will know where the information should be sent
 
 In the world of networking, this is called encapsulation and decapsulation
 
@@ -23,6 +23,12 @@ TCP means Transmission Control Protocol
 - also can perform flow control where the receiver can manage how much data is sent
 - like a two way interaction
 
+Communication using TCP
+- This protocol prefer a "return receipt"
+- HTTPS or Hypertext Transfer Protocol Secure, commonly used for web-server communication
+- SSH or Secure Shell, used for terminal communication and acts as the authenticator to secure the information exchange; example is client-server PC communication
+
+
 UDP means User Datagram Protocol
 - connectionless
 - no formal open or close to the connection
@@ -36,3 +42,26 @@ Connectionless protocols related to UDP
 - DHCP or Dynamic Host Configuration Protocol used for automatically assigning IP addresseses for all the devices on the network
 - TFTP or Trivial File Transfer Protocol used for sending small amounts of data within the network
 - the application that uses the UDP protocal may have the setting to keeps track or record what happened with the real-time communication
+
+=====================================================================================================================================================================================================================================================
+
+
+Lots of ports
+
+IPv4 sockets
+- server IP address > protocol (TCP or UDP) > server application port number
+- client IP address > protocol > client port number
+
+Non-ephemeral ports or permanent port numbers from Ports between 0 through 1,023 and usually on a server or service | also known as static or fixed port
+Ephemeral ports or temporary port numbers from Ports 1,024 through 65,535 and determined in real-time by the client
+
+
+=====================================================================================================================================================================================================================================================
+
+Port numbers
+
+- TCP and UDP ports can be any number between 0 and 65,535
+- most servers use non-ephemeral port numbers
+- TCP port numbers aren't the same as UDP port numbers
+- source port is dynamic or random
+- destination port is static
