@@ -65,3 +65,14 @@ Port numbers
 - TCP port numbers aren't the same as UDP port numbers
 - source port is dynamic or random
 - destination port is static
+- firewall also uses port numbers to allow or block network traffic
+
+
+FTP - File Transfer Protocol
+port numbers
+- tcp/20 (active mode data) or active data transfer
+- tcp/21 (control) or administration or control port
+- authenticates with a username and password
+- some systems use a generic or anonymous login
+
+https://www.youtube.com/watch?v=_qGlbfZ44hg&list=PLG49S3nxzAnnes8ZGI-OBlKEukHCX46N8&index=8
