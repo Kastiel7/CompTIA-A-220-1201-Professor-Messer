@@ -154,3 +154,6 @@ MDM policy enforcement needs to use MDM Console - Example App (Endpoint Central)
 - corporate email configuration
 - 2FA required
 - corporate applications / allow or restrict app
+- mobile device synchronization used for backup purposes or synching, for settings and email
+- can set data sync from wifi or cellular mode
+- business applications for email linking
