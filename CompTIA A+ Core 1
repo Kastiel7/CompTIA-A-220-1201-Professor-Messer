@@ -120,4 +120,37 @@ Cellular technology
 4g LTE-A / Long Term Evolution Advanced - supports download rates of 300 Mbit/s
 
 5G - launced in 2020 - supports 10 gigabits per second - slowers speeds from 100-900 Mbit/s
-Significant IoT (Internet of Things) impact
+Significant IoT (Internet of Things) impact - devices that uses monitoring function
+
+=====================================================================================================================================================================================================================================================
+
+802.11 network supports voice over wifi communication or wifi calling but depends if supported by sim provider or carrier
+
+
+=====================================================================================================================================================================================================================================================
+
+SIM means Subscriber Identity Module - unique identifier
+
+carrier vs user
+
+eSIM or Embedded SIM - SIM is inside the device and cannot be removed
+
+=====================================================================================================================================================================================================================================================
+
+GPS - Global Positioning System - Created by the U.S. Department of Defense
+
+For precise navigation - need to see at least 4 satellites
+
+=====================================================================================================================================================================================================================================================
+
+MDM or Mobile Device Management
+
+BYOD - Bring your own device (sometimes called Bring your own technology) or company provided 
+
+COPE - Corporate Owned Personally Enabled
+CYOD - Similar to COPE but with user's choice of device
+
+MDM policy enforcement needs to use MDM Console - Example App (Endpoint Central)
+- corporate email configuration
+- 2FA required
+- corporate applications / allow or restrict app
