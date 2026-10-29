@@ -1,0 +1,78 @@
+Migrating from HDD to SSD
+
+Image/clone the HDD
+Use software: Macrium Reflect - Free Edition - Not for commercial use - v8.0.6392 UEFI
+
+=====================================================================================================================================================================================================================================================
+
+802.11 wireless and Bluetooth
+mini PCI | min PCI express
+802.11 Local Arean netowrk
+
+802.11 is a set of IEEE standards that defines how Wi-Fi wireless networks work. It specifies how devices such as laptops, smartphones, and wireless routers communicate over radio waves without needing an Ethernet cable.
+
+For your CompTIA A+ studies, think of 802.11 as the technical standard behind Wi-Fi.
+
+## Common 802.11 Wi-Fi standards
+
+| Standard | Wi-Fi generation | Frequency band    | Maximum theoretical speed |
+| -------- | ---------------- | ----------------- | ------------------------- |
+| 802.11a  | —                | 5 GHz             | 54 Mbps                   |
+| 802.11b  | —                | 2.4 GHz           | 11 Mbps                   |
+| 802.11g  | —                | 2.4 GHz           | 54 Mbps                   |
+| 802.11n  | Wi-Fi 4          | 2.4 / 5 GHz       | 600 Mbps                  |
+| 802.11ac | Wi-Fi 5          | 5 GHz             | About 6.9 Gbps            |
+| 802.11ax | Wi-Fi 6 / 6E     | 2.4 / 5 / 6 GHz\* | About 9.6 Gbps            |
+| 802.11be | Wi-Fi 7          | 2.4 / 5 / 6 GHz\* | About 46 Gbps             |
+
+\*The available bands depend on the router, device, and regulatory region. Speeds shown are theoretical maximums, not typical real-world speeds.
+
+## Important concepts for CompTIA A+
+
+[2.4 GHz vs 5 GHz Wi-Fi Bands Compared (2026)](https://images.openai.com/static-rsc-4/UmmtQFri3lBCWxMT3KGlKcOP9KTTLzHFiso3ZRgpU92LqiKexqPTNoFR9_d0TTLUmMEh_WUKkkpofFrdwzcxN1lM8LRopBhTo2Cwpvqy9uNFRtW63N5pdmHURYYbuxvN-UW6IXuYUOzEcm83QLbMaMufglUXH2V3fFUc0gH4dh0?purpose=inline)
+
+2.4 GHz
+
+- Longer range and better wall penetration.
+- More interference from Bluetooth and other devices.
+- Commonly uses channels 1, 6, and 11 in regions where these are permitted.
+
+[Modern wireless wi-fi router with 5GHz and 802.11ac standards](https://images.openai.com/static-rsc-4/xqiZVDicYLearrxW47ny7WSrYAwswD1opGiFOd9v8T__9kCmlXd_u0fD1xAHpeEw_HCBIcSDdyvczsSyceNUlktqHtX3FK1Xg8GbGmmHYYQloeMdRnNhifNGkWDktqSBiTRkyytJlUPTU3AyaAkigDWrBbpPUYvn01g1k5zEEVairbcOj1qdf-oAhht5_a7m?purpose=inline)
+
+5 GHz
+
+- Usually offers higher speeds and more channel options.
+- Generally has shorter range than 2.4 GHz.
+- Commonly used for high-bandwidth activities.
+
+[Archer AX1500 | AX1500 기가비트 Wi-Fi 6 공유기 | TP-Link 대한민국](https://images.openai.com/static-rsc-4/MCPR-Yj2e7BDx6zAtpCG_A1yXq2UA7TuuXIqbIhVQgI6oFmkGuzyMN0vGxiTdLeiFH90H4vTBpK4Wl42mMu1bftcmQjVN9Ht6Sji9SAed_kBILwu2rJXEHjA7cIRJ_U4Ow-vdb1jr6z1fWlZV0z8_evlsdfHxP6Lct3igvXvLx4?purpose=inline)
+
+6 GHz
+
+- Available with Wi-Fi 6E and Wi-Fi 7 devices.
+- Offers additional spectrum and less congestion in supported regions.
+- Generally requires closer proximity to the access point for optimal performance.
+
+## Quick exam tip
+
+Remember these associations:
+
+- 802.11n = Wi-Fi 4
+- 802.11ac = Wi-Fi 5
+- 802.11ax = Wi-Fi 6 / 6E
+- 802.11be = Wi-Fi 7
+
+Also, 802.11 belongs to the IEEE 802.11 family of wireless LAN standards, which operates at the OSI physical and data link layers.
+
+=====================================================================================================================================================================================================================================================
+
+Bluetooth belongs to personal area network or PAN
+
+=====================================================================================================================================================================================================================================================
+
+802.11 wiring
+
+gray for main
+black for aux
+
+=====================================================================================================================================================================================================================================================
