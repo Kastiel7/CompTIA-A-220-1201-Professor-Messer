@@ -1,0 +1,38 @@
+Introduction to IP
+
+- like a shipping truck that moves a large amount of data
+- network topology is the road
+- data that are carried is called packets
+- the truck is the Internet Protocol or IP
+- the boxes that the truck carries hold your data and the boxes can be categorized as TCP and UDP types
+- inside of these boxes are application information
+
+In the world of networking, this is called encapsulation and decapsulation
+
+=====================================================================================================================================================================================================================================================
+
+TCP and UDP - also called OSI Transport Layer 4
+- transported inside of IP or encapsulated
+- two ways to move data from place to place or called multiplexing
+
+TCP means Transmission Control Protocol
+- connection oriented
+- a formal connection setup and close, example like a phone call
+- called "reliable" delivery as well, can manage out of order messages or retransmissions if data got corrupted while the transportation process
+- includes an acknowledgement process after the data has been received or data sending
+- also can perform flow control where the receiver can manage how much data is sent
+- like a two way interaction
+
+UDP means User Datagram Protocol
+- connectionless
+- no formal open or close to the connection
+- also called "unreliable" delivery, we never know if the receiver received the data because there is no built-in acknowledgedment on the logic, just receive function
+- no reordering of data or retransmissions
+- no flow control, sender determines the amount of data transmitted
+- one way interaction only
+- this technology can be used for real-time communication like VoIP and video conversation
+
+Connectionless protocols related to UDP
+- DHCP or Dynamic Host Configuration Protocol used for automatically assigning IP addresseses for all the devices on the network
+- TFTP or Trivial File Transfer Protocol used for sending small amounts of data within the network
+- the application that uses the UDP protocal may have the setting to keeps track or record what happened with the real-time communication
